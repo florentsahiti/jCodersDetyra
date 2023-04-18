@@ -567,13 +567,26 @@ header::after {
 }
 
 @media only screen and (max-width: 767px) {
-    .container {
+    .container1 {
         flex-direction: column;
     }
+
+    .container1{
+      display:table;
+    }
+    .div1{
+        display:table-footer-group;
+    }
+    .div2{
+        display:table-header-group;
+    }
+
+  
 
     .left,
     .right {
         flex: 1;
+        
     }
 
     .content {
@@ -583,6 +596,9 @@ header::after {
     .btn {
         font-size: 1.2rem;
     }
+
+   
+
 }
 
 
